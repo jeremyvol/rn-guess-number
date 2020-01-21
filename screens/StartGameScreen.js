@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import {
   View,
-  Text,
-  StyleSheet,
+  ScrollView,
   Button,
   TouchableWithoutFeedback,
+  StyleSheet,
   Keyboard,
+  KeyboardAvoidingView,
   Alert,
-  Dimensions,
-  ScrollView,
-  KeyboardAvoidingView
+  Dimensions
 } from 'react-native';
 
 import Card from '../components/Card';
